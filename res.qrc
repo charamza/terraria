@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/background.png</file>
+        <file>res/hud.png</file>
+        <file>res/music.mp3</file>
+        <file>res/music.ogg</file>
+        <file>res/npc.png</file>
+        <file>res/shummi.png</file>
+        <file>res/skin_boy.png</file>
+        <file>res/skin_naruto.png</file>
+        <file>res/skin.png</file>
+        <file>res/spritesheet.png</file>
+        <file>res/Thumbs.db</file>
+        <file>res/wasted.png</file>
+        <file>res/npc.xcf</file>
+    </qresource>
+</RCC>
