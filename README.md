@@ -12,4 +12,4 @@ Creation of this game was school project. Only limitation we had was to use C++ 
 
 Worlds are generated using very simple algorithm of interpolation and randomness.
 
-[[https://github.com/bratrio/terraria/blob/master/res/preview.png|alt=Terraria clone]]
+![Terraria Qt clone](https://github.com/bratrio/terraria/blob/master/res/preview.png)
