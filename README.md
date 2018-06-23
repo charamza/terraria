@@ -11,3 +11,5 @@ Creation of this game was school project. Only limitation we had was to use C++ 
 * Automatically saved world
 
 Worlds are generated using very simple algorithm of interpolation and randomness.
+
+[[https://github.com/bratrio/repository/blob/master/res/preview.png|alt=Terraria clone]]
