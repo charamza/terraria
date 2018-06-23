@@ -20,7 +20,7 @@ public:
     void paintBackground(QPainter *painter);
     void update(int delta);
 
-    QString name = "Hello";
+    QString name = "starter";
 
     const static int WIDTH = 2048, HEIGHT = 128;
     QImage spritesheet, background;
@@ -37,7 +37,6 @@ public:
     Block* getBlock(int x, int y);
     void setBlock(Block *block);
     void addEntity(Entity *entity);
-    //bool collide(QRectF rect);
     AABB collide(QRectF rect);
     bool validBounds(int x, int y);
     bool blockNextTo(int x, int y);

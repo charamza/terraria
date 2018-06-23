@@ -12,38 +12,38 @@ TARGET = Terraria
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    view.cpp \
-    game.cpp \
-    block.cpp \
-    camera.cpp \
-    world.cpp \
-    player.cpp \
-    entity.cpp \
-    aabb.cpp \
-    inventory.cpp \
-    rabbit.cpp \
-    worldgenerator.cpp \
-    bee.cpp \
-    shummi.cpp
+SOURCES += src/main.cpp\
+        src/mainwindow.cpp \
+    src/view.cpp \
+    src/game.cpp \
+    src/block.cpp \
+    src/camera.cpp \
+    src/world.cpp \
+    src/player.cpp \
+    src/entity.cpp \
+    src/aabb.cpp \
+    src/inventory.cpp \
+    src/rabbit.cpp \
+    src/worldgenerator.cpp \
+    src/bee.cpp \
+    src/shummi.cpp
 
-HEADERS  += mainwindow.h \
-    view.h \
-    game.h \
-    block.h \
-    camera.h \
-    world.h \
-    player.h \
-    entity.h \
-    aabb.h \
-    inventory.h \
-    rabbit.h \
-    worldgenerator.h \
-    bee.h \
-    shummi.h
+HEADERS  += src/mainwindow.h \
+    src/view.h \
+    src/game.h \
+    src/block.h \
+    src/camera.h \
+    src/world.h \
+    src/player.h \
+    src/entity.h \
+    src/aabb.h \
+    src/inventory.h \
+    src/rabbit.h \
+    src/worldgenerator.h \
+    src/bee.h \
+    src/shummi.h
 
-FORMS    += mainwindow.ui
+FORMS    += src/mainwindow.ui
 
 RESOURCES += \
     res.qrc

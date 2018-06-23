@@ -147,7 +147,7 @@ void World::load()
 
 void World::save()
 {
-    QFile file("../Terraria/" + this->name + ".wrld");
+    QFile file(this->name + ".wrld");
     if (file.open(QIODevice::ReadWrite))
     {
         QTextStream stream(&file);
